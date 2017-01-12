@@ -16,11 +16,11 @@ li{
 div::after {
   content: '';
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 50px;
+  bottom: -360px;
   width: 10px;
   background: #B0DCF8;
-  align-content: center;
+
 }
 
 
@@ -35,30 +35,38 @@ body {
   max-width: 20%;
   text-align: right;
   vertical-align: top;
+  padding-right: 10px;
 }
 
 
-a {
+img {
   vertical-align: top;
-  background-color: #3B95CB;
   border: 8px solid #B0DCF8;
   border-radius: 100%;
-  font-size: : 10px;
   display: inline block;
+  position: relative;
+  right: 35px;
+  top: -15px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  vertical-align: top;
 }
 
 h1 {
   color: #BED1E4;
   font-size: 15px;
   font-weight: lighter;
-  margin: 0;
+  margin-right: 40px;
 }
 
 h2 {
   color: #70C0EE;
   font-size: 40px;
   font-weight: lighter;
-  margin: 0;
+  margin: 0px 40px 0px 0px;
 }
 
 .boxes {
@@ -79,7 +87,7 @@ h2 {
   border: 8px solid transparent;
   border-right-color: #3B95CB;
   position: relative;
-  left: -8%;
+  left: -9%;
 
 }
 section{
