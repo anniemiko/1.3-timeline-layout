@@ -16,7 +16,7 @@ li{
 div::after {
   content: '';
   position: absolute;
-  top: 50px;
+  top: 55px;
   bottom: -360px;
   width: 10px;
   background: #B0DCF8;
@@ -47,12 +47,9 @@ img {
   position: relative;
   right: 35px;
   top: -15px;
-}
-
-img{
   width: 50px;
   height: 50px;
-  vertical-align: top;
+  z-index: 10;
 }
 
 h1 {
@@ -85,9 +82,9 @@ h2 {
   height: 0;
   width: 0;
   border: 8px solid transparent;
-  border-right-color: #3B95CB;
+  border-right-color: #70C0EE;
   position: relative;
-  left: -9%;
+  left: -8%;
 
 }
 section{
@@ -95,8 +92,12 @@ section{
   display: inline-block;
 }
 
-li:nth-child(even) section{
+section:hover {
   background: #3B95CB;
+}
+
+section:hover::before {
+  border-right-color: #3B95CB;
 }
 
 h3 {
